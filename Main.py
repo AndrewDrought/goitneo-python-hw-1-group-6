@@ -1,4 +1,3 @@
-from collections import defaultdict
 from datetime import datetime
 
 def get_birthdays_per_week(users):
