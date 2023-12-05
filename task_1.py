@@ -1,5 +1,5 @@
-from collections import defaultdict
 from datetime import datetime
+
 
 def get_birthdays_per_week(users):
     today = datetime.today().date()
@@ -27,4 +27,6 @@ def get_birthdays_per_week(users):
         print(f"{day_of_week}: {name}")
 
 
-
+users_input = input("Введіть дані користувачів: ")
+users = eval(users_input)
+get_birthdays_per_week(users)
